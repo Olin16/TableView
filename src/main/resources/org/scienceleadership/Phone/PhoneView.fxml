@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="422.0" prefWidth="669.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.scienceleadership.Phone.PhoneController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <TableView fx:id="allColumns" prefHeight="200.0" prefWidth="615.0">
+         <columns>
+            <TableColumn fx:id="phoneColumn" prefWidth="55.0" text="Phone" />
+            <TableColumn fx:id="storageColumn" minWidth="0.0" prefWidth="82.0" text="Storage" />
+            <TableColumn fx:id="sizeColumn" prefWidth="84.0" text="Size" />
+            <TableColumn fx:id="processorColumn" prefWidth="84.0" text="Processor" />
+            <TableColumn fx:id="chargerTypeColumn" prefWidth="98.0" text="Charger Type" />
+            <TableColumn fx:id="memoryColumn" prefWidth="61.0" text="Memory" />
+            <TableColumn fx:id="fingerPrintColumn" prefWidth="82.0" text="Finger Print" />
+            <TableColumn fx:id="ramColumn" minWidth="0.0" prefWidth="81.0" text="Ram" />
+         </columns>
+      </TableView>
+   </children>
+</VBox>
